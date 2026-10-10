@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="数着日子隐私政策，版本 4 · 更新日期 2026 年 10 月 9 日。">
+  <title>隐私政策 · 数着日子</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --accent: #2f5fa6;
+      --ink: #1c1a16;
+      --dim: #625e56;
+      --line: #e8e6e1;
+      --bg: #fafaf8;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-size: 16px;
+      line-height: 1.85;
+      overflow-wrap: anywhere;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+    .brand { margin: 0 0 8px; color: var(--dim); font-size: 14px; text-align: center; letter-spacing: 2px; }
+    h1 { margin: 0 0 6px; color: var(--accent); font-size: 26px; font-weight: 700; text-align: center; letter-spacing: 2px; }
+    .date { margin: 0 0 18px; color: var(--dim); font-size: 13px; text-align: center; }
+    .nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 20px; margin: 8px 0 24px; }
+    .nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; }
+    a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
+    .intro { margin: 0 0 26px; padding: 16px 18px; color: var(--dim); background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+    .intro p { margin: 0; }
+    h2 { margin: 26px 0 8px; padding-left: 10px; border-left: 3px solid var(--accent); font-size: 18px; line-height: 1.6; }
+    h3 { margin: 18px 0 6px; font-size: 16px; }
+    p { margin: 8px 0; }
+    ul { margin: 8px 0; padding-left: 24px; }
+    li { margin: 6px 0; }
+    .pages { display: grid; gap: 14px; }
+    .page-link { display: block; padding: 20px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; text-decoration: none; }
+    .page-link strong { display: block; margin-bottom: 4px; font-size: 18px; }
+    .page-link span { display: block; color: var(--dim); font-size: 14px; }
+    .page-link:hover strong { text-decoration: underline; text-underline-offset: 3px; }
+    .foot { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--dim); font-size: 13px; text-align: center; }
+    @media (max-width: 400px) {
+      .wrap { padding: 24px 18px 48px; }
+      h1 { font-size: 24px; }
+      .nav { gap: 4px 16px; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --accent: #7fa6dc; --ink: #f4f1ea; --dim: #b6b0a6; --line: #302c26; --bg: #121110; --card: #1e1c19; }
+    }
+    @media print {
+      :root { --accent: #1c1a16; --ink: #1c1a16; --dim: #625e56; --line: #e8e6e1; --bg: #ffffff; --card: #ffffff; }
+      .wrap { max-width: none; padding: 0; }
+      .nav { display: none; }
+      h2, h3 { break-after: avoid; }
+      .intro, .page-link { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <p class="brand">数着日子</p>
+      <h1>隐私政策</h1>
+      <p class="date">版本 4 · 更新日期 2026 年 10 月 9 日</p>
+      <nav class="nav" aria-label="协议导航">
+        <a href="daoshuri-index.html">首页</a>
+        <a href="daoshuri-terms.html">用户协议</a>
+      </nav>
+    </header>
+    <article aria-label="隐私政策全文">
+      <div class="intro"><p>我们非常重视你的隐私。这份政策说明「数着日子」会接触哪些信息、为什么、以及这些信息去了哪里。</p></div>
+      <section>
+        <h2>一、一句话概括</h2>
+        <p>你的日子、备注和照片只保存在你自己的设备与 iCloud 私有库里，不会上传给我们或广告平台。免费版使用 Google AdMob 展示启动广告，该 SDK 可能处理设备、应用与广告交互信息。</p>
+      </section>
+      <section>
+        <h2>二、我们不提供给广告平台的内容</h2>
+        <ul>
+          <li>你记录的日子、备注、日子本与照片</li>
+          <li>你从系统日历导入的内容</li>
+          <li>相机画面、相册内容与通知文案</li>
+        </ul>
+      </section>
+      <section>
+        <h2>三、App 会接触的信息及用途</h2>
+        <p>以下每一项都需要你在系统弹窗中明确授权,且随时可以在系统「设置」中关闭:</p>
+        <h3>1. iCloud</h3>
+        <p>用于在你自己的设备之间同步日子。数据写入的是你 Apple ID 名下的 iCloud 私有库,我们无法访问。未登录 iCloud 时,数据仅保存在本机,功能不受影响。</p>
+        <h3>2. 相册</h3>
+        <p>用于选择一张照片作为某个日子的背景,以及把你生成的分享卡、壁纸存回相册。照片只保存在本机,不会上传。</p>
+        <h3>3. 相机</h3>
+        <p>用于拍一张照片作为日子的背景。拍下的照片只保存在本机。</p>
+        <h3>4. 日历</h3>
+        <p>用于把系统日历里的纪念日、生日一次性导入。只读取,不修改你的日历;读取在本机完成,内容不上传。</p>
+        <h3>5. 通知</h3>
+        <p>用于在你设定的时间提醒你某个日子快到了。</p>
+      </section>
+      <section>
+        <h2>四、端侧 AI</h2>
+        <p>「说一句话建日子」使用设备本地的模型解析,你输入的文字不经过任何服务器。</p>
+      </section>
+      <section>
+        <h2>五、广告与隐私选项</h2>
+        <p>免费版接入 Google Mobile Ads SDK 和 User Messaging Platform。Google 可能处理 IP 地址及由此得出的大致位置、设备与应用标识信息、广告展示/点击信息，以及诊断和防欺诈信息，用于展示、计量和保护广告服务。这些信息可能发送到 Google 的服务器，具体以 Google 隐私政策为准：<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+        <p>我们会在请求广告前通过 Google User Messaging Platform 检查当地法律要求的同意状态。如需要，你可在「我的 › 广告隐私设置」查看或修改选项。Pro 用户不请求或展示广告。</p>
+      </section>
+      <section>
+        <h2>六、反馈与建议</h2>
+        <p>只有在你主动提交反馈时,App 才会把你填写的反馈内容、可选联系方式、App 版本和设备系统信息发送至飞书机器人,用于接收、定位和回复反馈。我们不会随反馈上传你记录的日子、备注、照片或系统日历内容。请勿在反馈中填写密码、验证码等敏感信息。</p>
+      </section>
+      <section>
+        <h2>七、升级检查</h2>
+        <p>在你同意本政策后,App 会在启动及回到前台时访问版本配置服务和 App Store 的公开查询接口,用于判断是否有新版本。请求可能包含网络连接必需的 IP 地址等常规信息,但不包含你的日子、备注、照片、日历内容或设备标识符。</p>
+      </section>
+      <section>
+        <h2>八、数据保存与删除</h2>
+        <ul>
+          <li>删除某个日子,它的照片与备注一并删除</li>
+          <li>在系统设置里删除 App,本机数据随之清除;iCloud 中的副本可在「设置 › Apple ID › iCloud › 管理储存空间」里删除</li>
+        </ul>
+      </section>
+      <section>
+        <h2>九、未成年人</h2>
+        <p>我们不会有意把未成年人的日子、备注或照片提供给 Google。若你未满 14 周岁，请在监护人同意后使用。</p>
+      </section>
+      <section>
+        <h2>十、政策变更</h2>
+        <p>政策内容如有更新,我们会在 App 内再次征求你的同意。</p>
+      </section>
+      <section>
+        <h2>十一、联系我们</h2>
+        <p>对本政策有任何疑问,可通过 App 内「我的 › 反馈与建议」联系我们。</p>
+      </section>
+    </article>
+    <footer class="foot">
+      <p>数着日子 · 记录与倒数重要日子</p>
+      <p>联系我们：App 内「我的 › 反馈与建议」</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="数着日子的用户协议与隐私政策，了解服务规则与个人信息处理方式。">
+  <title>用户协议与隐私政策 · 数着日子</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --accent: #2f5fa6;
+      --ink: #1c1a16;
+      --dim: #625e56;
+      --line: #e8e6e1;
+      --bg: #fafaf8;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-size: 16px;
+      line-height: 1.85;
+      overflow-wrap: anywhere;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+    .brand { margin: 0 0 8px; color: var(--dim); font-size: 14px; text-align: center; letter-spacing: 2px; }
+    h1 { margin: 0 0 6px; color: var(--accent); font-size: 26px; font-weight: 700; text-align: center; letter-spacing: 2px; }
+    .date { margin: 0 0 18px; color: var(--dim); font-size: 13px; text-align: center; }
+    .nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 20px; margin: 8px 0 24px; }
+    .nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; }
+    a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
+    .intro { margin: 0 0 26px; padding: 16px 18px; color: var(--dim); background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+    .intro p { margin: 0; }
+    h2 { margin: 26px 0 8px; padding-left: 10px; border-left: 3px solid var(--accent); font-size: 18px; line-height: 1.6; }
+    h3 { margin: 18px 0 6px; font-size: 16px; }
+    p { margin: 8px 0; }
+    ul { margin: 8px 0; padding-left: 24px; }
+    li { margin: 6px 0; }
+    .pages { display: grid; gap: 14px; }
+    .page-link { display: block; padding: 20px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; text-decoration: none; }
+    .page-link strong { display: block; margin-bottom: 4px; font-size: 18px; }
+    .page-link span { display: block; color: var(--dim); font-size: 14px; }
+    .page-link:hover strong { text-decoration: underline; text-underline-offset: 3px; }
+    .foot { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--dim); font-size: 13px; text-align: center; }
+    @media (max-width: 400px) {
+      .wrap { padding: 24px 18px 48px; }
+      h1 { font-size: 24px; }
+      .nav { gap: 4px 16px; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --accent: #7fa6dc; --ink: #f4f1ea; --dim: #b6b0a6; --line: #302c26; --bg: #121110; --card: #1e1c19; }
+    }
+    @media print {
+      :root { --accent: #1c1a16; --ink: #1c1a16; --dim: #625e56; --line: #e8e6e1; --bg: #ffffff; --card: #ffffff; }
+      .wrap { max-width: none; padding: 0; }
+      .nav { display: none; }
+      h2, h3 { break-after: avoid; }
+      .intro, .page-link { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>数着日子</h1>
+      <p class="date">用户协议与隐私政策</p>
+    </header>
+    <div class="intro">
+      <p>「数着日子」是一款记录与倒数重要日子的工具。使用前，请阅读以下用户协议与隐私政策，了解服务内容、付费规则以及你的数据如何被使用和保存。</p>
+    </div>
+    <nav class="pages" aria-label="协议列表">
+      <a class="page-link" href="daoshuri-terms.html">
+        <strong>用户协议</strong>
+        <span>服务内容、付费与退款、内容归属及使用规则</span>
+      </a>
+      <a class="page-link" href="daoshuri-privacy.html">
+        <strong>隐私政策</strong>
+        <span>本地数据与 iCloud、系统权限、广告、反馈及升级检查</span>
+      </a>
+    </nav>
+    <footer class="foot">
+      <p>协议版本 4 · 更新日期 2026 年 10 月 9 日</p>
+      <p>联系我们：App 内「我的 › 反馈与建议」</p>
+    </footer>
+  </main>
+</body>
+</html>
